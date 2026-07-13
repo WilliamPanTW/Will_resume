@@ -12,33 +12,73 @@
             <header class="page-header">
             <nav>
                 <ul class="links">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#home">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#Project">Publication</a></li>
+                    <li><a href="index.html#project">Project</a></li>
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
             </header>
             <main>
+                <section id="home">
+                    <h1> Hey,I am William a firmware engineer focuing in embedded, IoT, robotic and on-device AI.</h1>
+                </section>
                 <section id="about">
                     <h2>About</h2>
                     <h3>Turning limited resources into limitless possibilities.</h3>
-                    <p>I am an firmware engineer focuing in embedded, IoT, and on-device AI. I am passionate about transforming resource-constrained hardware into intelligent products through hardware-software optimization and efficient computing. </p>
+                    <p> 
+                        Interesting about transforming resource-constrained hardware into intelligent products 
+                        through hardware integration and software computing. </p>
+                </section>
+
+                <section id="publication">
+                    <article>
+                        <h3>
+                            Rethinking On-Device LLM Reasoning: Why Analogical Mapping Outperforms Abstract Thinking for IoT DDoS Detection 
+                        </h3>
+                        <h4>
+                            (First author, IEEE ICC 2026)
+                        </h4>
+                        <p>
+                            Research on detecting DDoS attacks with small LLMs (&lt)5B on IoT edge devices,
+                            using context engineering where feeding compact models concrete 
+                            few-shot exemplars via RAG achieves high accuracy while preserving the low 
+                            latency the network edge demands.                        
+                        </p>
+                        <a href="https://arxiv.org/abs/2601.14343">📄Read More</a>
+                    </article>
+                    <article>
+                        <h3>
+                            Structured Lightweight Speech Summarization with On-Device LLMs and Retrieval-Augmented Refinement                          </h3>
+                        <h4>
+                            (Co-authored , ICNC 2026)
+                        </h4>
+                        <p>
+                            Research on                      
+                        </p>
+                        <a href="https://ieeexplore.ieee.org/document/11416868">📄Learn More</a>
+                    </article>
                 </section>
 
                 <section id="project">
                     <h2>Project</h2>
                     <article>
-                        <h3>Clapper Board Detection with llm</h3>
+                        <h3>Clapper Board Detection with Vision Language Model (VLM)</h3>
                         <p>
-                            Manual file renaming in post-production is a tedious bottleneck that wastes hours, disrupts workflows, and hinders creativity. By automating this process through advanced technologies like YOLO for clapperboard detection, image cropping for precision, and Generative AI for text extraction, we revolutionize efficiency, eliminate human error, and empower filmmakers to focus on what truly matters—crafting compelling stories. 
+                            An AI-powered automation system designed for film post-production file organization.
+                            Using Vision Language Models to understands production details and generates accurate filenames to
+                            reducing manual effort.
                         </p>
                         <a href="XYX">Learn More</a>
                     </article>
 
                     <article>
-                        <h3>Sign Language Recognition</h3>
+                        <h3>Sign Language communication system</h3>
                         <p>
-                            The transformer-based sign language interpreter provides significant benefits by enabling real-time, accurate translation of sign language into text, fostering better communication for individuals with hearing impairments.
+                            A real-time AI communication platform that transforms sign language gestures into text, 
+                            making digital interaction more inclusive and accessible for millions of people with 
+                            hearing impairments.
                         </p>
                         <a href="XYX">Learn More</a>
                     </article>
@@ -46,7 +86,8 @@
                     <article>
                         <h3>Donkey Car with Jetson Nano</h3>
                         <p>
-                            Built an autonomous toy car on Jetson Nano, leveraging CUDA GPU acceleration and TensorRT optimization to overcome limited computing resources and accelerate real-time inference by 30%. 
+                            Built an autonomous toy car on Jetson Nano by leveraging CUDA GPU acceleration and TensorRT
+                            optimization to overcome limited computing resources and accelerate real-time inference by 30%. 
                         </p>
                         <a href="XYX">Learn More</a>
                     </article>
@@ -54,19 +95,24 @@
                     <article>
                         <h3>Face detection Smart curtain opener </h3>
                         <p>
-                            Developed a facial recognition access control system with CNNs, achieving 85% accuracy, real-time detection, and automated motor control for secure access.
+                            An smart home automation system that uses facial recognition to enable personalized access
+                            and automatic curtain control that provides real-time face detection with secure, hands-free operation.
                         </p>
                         <a href="XYX">Learn More</a>
                     </article>
                     
                 </section>
+                
+                <section id="work">
 
-                 </section>
+                </section>
+
                 <section id="contact">
                     <h2>Contact</h2>
                     <p>Email: William910122@gmail.com</p>
                 </section>
             </main>
         </div>
+        <script src=".\assets\js\script.js"></script>
     </body>
 </html>
