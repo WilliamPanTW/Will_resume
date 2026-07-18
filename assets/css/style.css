@@ -218,6 +218,7 @@ article a:hover {
 #publication article {
     display: flex;
     align-items: stretch;
+    height: 200px;
     padding: 0;
     overflow: hidden;
 }
@@ -227,7 +228,7 @@ article a:hover {
     position: relative;
     overflow: hidden;
     background-color: #0a0a0a;
-    clip-path: polygon(0 0, 78% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
 }
 
 #publication article .pub-media img {
@@ -240,8 +241,13 @@ article a:hover {
 
 #publication article .pub-info {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     padding: 10px 20px;
     min-width: 0;
+    overflow: hidden;
 }
 
 #publication article .pub-info h3 {
@@ -274,6 +280,7 @@ article a:hover {
 @media (max-width: 700px) {
     #publication article {
         flex-direction: column;
+        height: auto;
     }
 
     #publication article .pub-media {
