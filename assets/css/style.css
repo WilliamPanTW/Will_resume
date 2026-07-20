@@ -135,6 +135,49 @@ h1 {
     padding-left: 10px;
 }
 
+.banner-social {
+    margin-top: 6px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.social-icons img {
+    width: 14px;
+    height: 14px;
+    display: block;
+}
+
+.social-icons-contact a {
+    width: 30px;
+    height: 30px;
+}
+
+.social-icons-contact img {
+    width: 16px;
+    height: 16px;
+}
+
 .banner-desc {
     margin: 0;
     color: #c2c2c2;
