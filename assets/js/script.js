@@ -21,3 +21,12 @@ const observer = new IntersectionObserver(
 );
 
 sections.forEach((section) => observer.observe(section));
+
+const lastSection = sections[sections.length - 1];
+
+window.addEventListener("scroll", () => {
+    const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+    if (atBottom && lastSection) {
+        setActiveLink(lastSection.id);
+    }
+});
