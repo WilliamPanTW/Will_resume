@@ -1,3 +1,3 @@
-# Will_resume
+# William Pan — Portfolio
 
-https://williampantw.github.io/Will_resume/
+Live site: https://williampantw.github.io/Will_resume/
